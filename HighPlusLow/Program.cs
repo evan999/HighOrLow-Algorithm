@@ -10,6 +10,8 @@ namespace HighPlusLow
     {
         static void Main(string[] args)
         {
+            ProcessRound hand = new ProcessRound();
+            hand.Round(10, 0);
         }
     }
 }
